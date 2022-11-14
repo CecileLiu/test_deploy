@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Little pink detector</title>
+    <style>
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+<form method="get">
+    <input type="text" name="text" value="{{ result }}"/><br>
+    <input type="submit">
+</form>
+<p>Result: {{ result }}</p>
+</body>
+
+</html>
